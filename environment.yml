@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - flask
+  - gunicorn
   - psycopg2
   - jupyter
   - sqlalchemy
