@@ -1,0 +1,11 @@
+name: postgres-flask-example
+channels:
+  - conda-forge
+dependencies:
+  - flask
+  - psycopg2
+  - jupyter
+  - sqlalchemy
+  - pandas
+  - matplotlib
+  - requests
