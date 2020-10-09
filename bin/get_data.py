@@ -9,11 +9,7 @@ from sqlalchemy import Column, DateTime, Integer, String
 
 from mta_lost_found import query_lost_found_api
 
-DATABASE_URL = 'postgresql://admin@localhost:5432/herokudb'
-
-#DATABASE_URL = os.environ.get('DATABASE_URL')
-
-
+DATABASE_URL = os.environ.get('DATABASE_URL')
 
 # This creates a base we can inherit from
 Base = declarative_base()
